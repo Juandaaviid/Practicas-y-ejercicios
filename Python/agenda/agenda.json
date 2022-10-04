@@ -1,0 +1,37 @@
+{
+    "9": {
+        "nombre": "Juan",
+        "telefono": 3156367367,
+        "correo": "juan@uis.edu.co",
+        "direccion": "Calle 9 Cra 27",
+        "ciudad": "Bucaramanga"
+    },
+    "2": {
+        "nombre": "Pedro",
+        "telefono": 3206367367,
+        "correo": "pedro@uis.edu.co",
+        "direccion": "Calle 8 Cra 21",
+        "ciudad": "Bogota"
+    },
+    "7": {
+        "nombre": "Jose",
+        "telefono": 3226367367,
+        "correo": "jose@uis.edu.co",
+        "direccion": "Calle 7 Cra 22",
+        "ciudad": "Cali"
+    },
+    "8": {
+        "nombre": "Maria",
+        "telefono": "3502551222",
+        "correo": "maria@uis.edu.co",
+        "direccion": "Calle 52 No. 21-23",
+        "ciudad": "Cartagena"
+    },
+    "4": {
+        "nombre": "Lucia",
+        "telefono": 3176367367,
+        "correo": "lucia@uis.edu.co",
+        "direccion": "Calle 12 Cra 19",
+        "ciudad": "Barranquilla"
+    }
+}

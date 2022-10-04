@@ -1,0 +1,95 @@
+arroz=300
+cafe=400
+azucar=250
+sal=1000
+harina=600
+movimiento=""
+
+while movimiento!="X":
+    print("-------------")
+    print("| INVENTARIO |")
+    print("-------------")
+    print(f"Arroz: {arroz}")
+    print(f"Cafe: {cafe}")   
+    print(f"Azucar: {azucar}")       
+    print(f"Sal: {sal}")       
+    print(f"Harina: {harina}")  
+    #print("Listado de productos\n1. Arroz\n2. Cafe\n3. Azucar\n4. Sal\n5. Harina\n6. Salir") 
+    print("---------------------------------------")
+    print("| BIENVENIDO AL SISTEMA DE INVENTARIO |")
+    print("---------------------------------------")
+    print("*** Movimientos de inventario ***")
+    print("E. ENTRADA")
+    print("S. SALIDA")
+    print("B. BAJA")
+    print("X. Salir")
+    movimiento=input("Seleccione un movimiento de inventario: ")
+    movimiento=movimiento.upper()
+    if movimiento=="X":
+        print("Hasta pronto!")
+    else:
+        cantidad=int(input("Escriba la cantidad de productos: "))
+        if cantidad>=0:
+            print("*** Listado de productos ***")
+            print("1. Arroz")
+            print("2. Cafe")
+            print("3. Azucar")
+            print("4. Sal")
+            print("5. Harina")
+            print("6. Salir")
+            producto=input("Seleccione un producto: ")
+            if producto=="6":
+                print("Hasta pronto!")
+            else:
+                if producto=="1":
+                    if movimiento=="E":
+                        arroz=arroz+cantidad 
+                    if movimiento=="S" or movimiento=="B":
+                        if cantidad<=arroz:
+                            arroz=arroz-cantidad
+                        else:
+                            print("No hay existencias suficientes de arroz")
+                if producto=="2":
+                    if movimiento=="E":
+                        cafe=cafe+cantidad 
+                    if movimiento=="S" or movimiento=="B":
+                        if cantidad<=cafe:
+                            cafe=cafe-cantidad
+                        else:
+                            print("No hay existencias suficientes de cafe")
+                if producto=="3":
+                    if movimiento=="E":
+                        azucar=azucar+cantidad 
+                    if movimiento=="S" or movimiento=="B":
+                        if cantidad<=azucar:
+                            azucar=azucar-cantidad
+                        else:
+                            print("No hay existencias suficientes de azucar") 
+                if producto=="4":
+                    if movimiento=="E":
+                        sal=sal+cantidad 
+                    if movimiento=="S" or movimiento=="B":
+                        if cantidad<=sal:
+                            sal=sal-cantidad
+                        else:
+                            print("No hay existencias suficientes de sal") 
+                if producto=="5":
+                    if movimiento=="E":
+                        harina=harina+cantidad 
+                    if movimiento=="S" or movimiento=="B":
+                        if cantidad<=harina:
+                            harina=harina-cantidad
+                        else:
+                            print("No hay existencias suficientes de harina") 
+            print("--------------------------")
+            print("| INVENTARIO ACTUALIZADO |")
+            print("--------------------------")
+            print(f"Arroz: {arroz}")
+            print(f"Cafe: {cafe}")   
+            print(f"Azucar: {azucar}")       
+            print(f"Sal: {sal}")       
+            print(f"Harina: {harina}")   
+        else:
+            print("El valor ingresado no es válido!")
+
+    movimiento=movimiento+1

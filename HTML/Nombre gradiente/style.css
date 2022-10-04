@@ -1,0 +1,17 @@
+.text {
+    font-weight: bold;
+    font-size: 8rem;
+    background: linear-gradient(45deg,deepskyblue, deeppink);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.texto2{
+    font-weight: bold;
+    font-size: 6rem;
+    background: linear-gradient(45deg,rgb(21, 253, 0), rgb(248, 4, 4));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

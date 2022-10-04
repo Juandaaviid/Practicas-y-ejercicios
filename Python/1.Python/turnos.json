@@ -1,0 +1,27 @@
+{
+    "1": {
+        "cubiculo": 1,
+        "nombre": "Juan Perez",
+        "ocupado": false
+    },
+    "2": {
+        "cubiculo": 2,
+        "nombre": "Pedro Martinez",
+        "ocupado": true
+    },
+    "3": {
+        "cubiculo": 3,
+        "nombre": "Jose Feliciano",
+        "ocupado": true
+    },
+    "4": {
+        "cubiculo": 4,
+        "nombre": "Maria Rodriguez",
+        "ocupado": true
+    },
+    "5": {
+        "cubiculo": 5,
+        "nombre": "Lucia Fernandez",
+        "ocupado": false
+    }
+}
