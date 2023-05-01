@@ -1,5 +1,5 @@
 notas={"Juan":[1.2, 3.1, 3.5]}
-
+"""
 opcion=0
 while opcion!=5:
     opcion=int(input("---MODULO DE NOTAS--- \n 1. Añadir un estudiante \n 2. Modificar una o mas notas \n 3. Crear e imprimir un diccionario de notas finales \n 4. Estudiantes que aprobaron y reprobaron, la maxima y minima nota y el promedio del curso \n 5. Salir \n Eleccion: "))
@@ -29,4 +29,8 @@ while opcion!=5:
 
     elif opcion ==3:
         print("---MODULO NUEVO DICCIONARIO---")
-
+"""
+lista=[1,2,3,4]
+for i in range(len(lista)):
+    print(i)
+    print(lista[i])
